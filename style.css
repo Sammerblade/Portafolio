@@ -1,0 +1,36 @@
+/* Estilo básico del cuerpo de la página, incluyendo fuente, padding, ancho máximo y centrado */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente del texto para mejorar la legibilidad */
+    padding: 20px; /* Agrega un espacio alrededor del contenido para evitar que toque los bordes de la ventana */
+    max-width: 600px; /* Limita el ancho máximo del contenido para una mejor lectura en pantallas grandes */
+    margin: auto; /* Centra el contenido horizontalmente */
+}
+
+/* Estilo para los títulos h1 y h2, definiendo el color del texto */
+h1, h2 {
+    color: #333; /* Establece un color oscuro para los títulos, mejorando el contraste */
+}
+
+/* Estilos para las áreas de texto, incluyendo dimensiones, padding y margen */
+textarea {
+    width: 100%; /* Hace que el área de texto ocupe todo el ancho disponible */
+    padding: 10px; /* Agrega espacio dentro del área de texto, alrededor del contenido */
+    margin: 10px 0; /* Agrega un margen vertical para separarlo de otros elementos */
+    box-sizing: border-box; /* Asegura que el padding y border no incrementen su ancho */
+    height: 100px; /* Establece una altura inicial para el área de texto */
+}
+
+/* Estilos para los botones, incluyendo color de fondo, color de texto, padding, margen y efectos de interacción */
+button {
+    background-color: #4CAF50; /* Color de fondo verde para los botones, indicando acción */
+    color: white; /* Color de texto blanco para contraste */
+    padding: 10px 15px; /* Espacio interior para aumentar el tamaño y la legibilidad */
+    margin: 10px 0; /* Margen vertical para separar de otros elementos */
+    border: none; /* Elimina el borde predeterminado del botón */
+    cursor: pointer; /* Cambia el cursor a pointer para indicar que es clickeable */
+}
+
+/* Estilo para el estado hover de los botones, reduciendo la opacidad para un feedback visual */
+button:hover {
+    opacity: 0.8; /* Reduce la opacidad para indicar interactividad al pasar el mouse */
+}
